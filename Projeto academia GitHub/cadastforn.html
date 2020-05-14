@@ -1,0 +1,279 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="formatação.css">
+
+    <title>Novo Cadastro</title>
+  </head>
+  <body class="telacadastro">
+
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+      <div class="navbar-brand m-2" style="text-indent: -100px;">Logo</div>    
+      <img src="imagens/perfil.png">
+
+      <button class="navbar navbar-toggler" data-toggle="collapse" data-target="#menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+      <div class="navbar-collapse collapse justify-content-center h5" id="menu">
+        <ul class="navbar-nav">
+        <li class="nav-item">
+          <a href="secondpage.html" class="nav-link">Home</a>
+        </li>
+      </ul>
+      <ul class="navbar-nav">
+        <li class="nav-item dropdown">
+          <a href="" class="nav-link dropdown-toggle" data-toggle="dropdown">Treinamentos</a>
+          <div class="dropdown-menu">
+            <a href="academia.html" class="dropdown-item">Academia</a>
+            <div class="dropdown-divider"></div>
+            <a href="luta.html" class="dropdown-item">Lutas</a>
+          </div>
+        </li>
+      </ul>
+
+      <ul class="navbar-nav">
+        <li class="nav-item dropdown">
+          <a href="" class="nav-link dropdown-toggle" data-toggle="dropdown">Produtos</a>
+          <div class="dropdown-menu">
+            <a href="loja.html" class="dropdown-item">Loja</a>
+            <div class="dropdown-divider"></div>
+            <a href="estoque.html" class="dropdown-item">Em estoque</a>
+            <div class="dropdown-divider"></div>
+            <a href="compras.html" class="dropdown-item">Compras</a>
+          </div>
+        </li>
+      </ul>
+
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a href="agenda.html" class="nav-link">Agenda</a>
+        </li>
+      </ul>
+
+      <ul class="navbar-nav">
+        <li class="nav-items dropdown">
+          <a href="" class="nav-link dropdown-toggle" data-toggle="dropdown">Cadastros</a>
+          <div class="dropdown-menu">
+            <a href="cadastro.html" class="dropdown-item"> Novo Cadastro</a>
+            <div class="dropdown-divider"></div>
+            <a href="modcad.html" class="dropdown-item">Modificar Cadastro</a>
+          </div>
+        </li>
+      </ul>
+      <form class="form-inline">
+        <input class="form-control ml-5" type="text" name="pesquisa" placeholder="Loja, clientes e mais">
+        <button class="btn btn-outline-success ml-2">Pesquisar</button>
+      </form>
+   </nav>
+
+
+
+
+
+    <ul id="linkcads" class="nav justify-content-center nav-tabs h4 mt-1" >
+      <li class="nav-item">
+        <a href="cadastro.html" class="nav-link text-success"><strong>Clientes</strong></a>
+      </li>
+      <li class="nav-item" id="tittleselect">
+        <a href="" class="nav-link text-dark active"><strong>Forncedores</strong></a>
+      </li>
+      <li class="nav-item">
+        <a href="cadastprodut.html" class="nav-link text-success"><strong>Produto/Equipamento</strong></a>
+      </li>
+      <li class="nav-item">
+        <a href="colab.html" class="nav-link text-success"><strong>Colaboradores</strong></a>
+      </li>
+
+    </ul>
+    <br>
+
+
+   <div id="layoutcadastro">
+    <div id="tittleselect2">
+     <h2 id="tittleselect3">Cadastro de Fornecedores</h2><br>
+      <legend><h6 id="tittleselect4">Dados Contratuais</h6></legend><br>
+       </div>
+    <div  id="layoutcadastro" style="margin-left: 0px; width: 100%; margin-top: -20px"><hr> </div>
+    <div id="layoutcadastro">
+     <fieldset id="dadospessoais">
+ <div id="flex">
+      <div>
+      <label for="nome"><span class="input-group-text"> Empresa: </span></label>
+      <div class="input-group-prepend" style="width: 400px;">
+        <input class="form-control w-75" type="text" name="nome" placeholder="Nome da Empresa" required>
+      </div>
+      </div>
+       <div>
+      <label for="nome"><span class="input-group-text"> Razão Social: </span></label>
+      <div class="input-group-prepend" style="width: 400px;">
+        <input class="form-control w-75" type="text" name="nome" placeholder="Razão social em NF" required>
+      </div>
+      </div>
+</div>
+<br>
+<div id="flex">
+      <div>
+      <label for="nome"><span class="input-group-text mt-4"> Contato: </span></label>
+      <div class="input-group-prepend w-100">
+        <input class="form-control w-100" type="num" name="contato" placeholder="(DDD) 00000-0000" required>
+      </div>
+      </div>
+
+      <div style="margin-left: 49px;">
+      <label for="nome"><span class="input-group-text mt-4"> E-mail: </span></label>
+      <div class="input-group-prepend w-100">
+        <input class="form-control" type="email" name="E-mail" placeholder="Empresa@email.com" required>
+      </div>
+      </div>
+      <div style="margin-left: 49px;">
+      <label for="nome"><span class="input-group-text mt-4"> CPF/CNPJ: </span></label>
+      <div class="input-group-prepend w-100">
+        <input class="form-control w-100" type="num" name="cpf" placeholder="000.000-00/000-00" min="8" max="8" required>
+      </div>
+      </div>
+</div>
+<br>
+<div id="flex">
+       <div>
+      <label for="nome"><span class="input-group-text mt-4"> Tipo: </span></label>
+      <div class="input-group-prepend w-100">
+        <select class="form-control" required>
+          <option>Fisica</option>
+          <option>Juridica</option>
+        </select>
+      </div>
+      </div>
+      
+      <div style="margin-left: 148px;" >
+      <label for="nome"><span class="input-group-text mt-4" > Inicio do Cadastro: </span></label>
+      <div class="input-group-prepend w-100">
+        <input class="form-control" type="date" name="nascimento" required>
+      </div>
+      </div>
+      <div style="margin-left: 54px;">
+      <label for="nome"><span class="input-group-text mt-4">Origem: </span></label>
+      <div class="input-group-prepend w-100" required>
+       <select class="form-control">
+         <option>MG</option>
+         <option>RS</option>
+         <option>SC</option>
+         <option>PN</option>
+         <option>SP</option>
+         <option>DF</option>
+         <option>MT</option>
+         <option>MG</option>
+       </select>
+
+      </div>
+      </div>
+</div>
+<br>
+
+      <div class="mt-4">
+      <label for="nome"><span class="input-group-text"> Observações: </span></label>
+      <div class="input-group-prepend w-100">
+        <input class="form-control" style="width: 695px;"   type="text" name="nome" placeholder="Dados extras">
+      </div>
+      </fieldset>
+      </div>
+
+        <div  id="layoutcadastro" style="margin-left: 0px; width: 100%;"><hr></div>
+    
+    <div style="margin-left: 180px;">
+    
+     <fieldset id="dadospessoais">
+      <div>
+      <label for="nome"><span class="input-group-text"> Endereço: </span></label>
+      <div class="input-group-prepend w-100">
+        <input class="form-control" style="width: 695px;" type="text" name="Endereçocliente" placeholder="Rua ou Avenida" required>
+      </div>
+      </div>
+<div id="flex">
+      <div>
+      <label for="nome"><span class="input-group-text mt-4"> Bairro: </span></label>
+      <div class="input-group-prepend" style="width: 260px;">
+        <input class="form-control w-100" type="num" name="bairrocliente" placeholder="Bairro ou Destrito" required>
+      </div>
+      </div>
+
+      <div class="ml-4">
+      <label for="nome"><span class="input-group-text mt-4"> Numero: </span></label>
+      <div class="input-group-prepend w-100">
+        <input class="form-control" type="num" name="numcasa" placeholder="Ex 107" required>
+      </div>
+      </div>
+      <div style="margin-left: 20px;">
+      <label for="nome"><span class="input-group-text mt-4"> Complemento: </span></label>
+      <div class="input-group-prepend" style="width: 300px;">
+        <input class="form-control w-100" type="text" name="compltcliente" placeholder="Ex Casa ou Apartamento" required>
+      </div>
+      </div>
+</div>
+<div id="flex">
+      <br>
+      <div >
+      <label for="nome"><span class="input-group-text mt-4"> CEP: </span></label>
+      <div class="input-group-prepend w-100">
+        <input class="form-control" type="num" name="cepcliente" placeholder=" Ex 00000-000" required>
+      </div>
+      </div>
+       <div style="margin-left: 84px;">
+      <label for="nome"><span class="input-group-text mt-4"> Cidade: </span></label>
+      <div class="input-group-prepend w-100">
+        <input class="form-control" type="text" name="cidadecliente" placeholder="Ex Cruzeiro" required>
+      </div>
+      </div>
+      <div style="margin-left: 128px;">
+      <label for="nome"><span class="input-group-text mt-4"> Estado: </span></label>
+      <div class="input-group-prepend w-100 ">
+       <select class="form-control" required>
+         <option>MG</option>
+         <option>RS</option>
+         <option>SC</option>
+         <option>PN</option>
+         <option>SP</option>
+         <option>DF</option>
+         <option>MT</option>
+         <option>MG</option>
+       </select>
+
+      </div>
+      </div>
+</div>
+<br>
+      <div class="mt-4">
+      <label for="nome"><span class="input-group-text"> Observações: </span></label>
+      <div class="input-group-prepend w-100">
+        <input class="form-control" style="width: 650px;" type="text" name="nome" placeholder="Dados extras">
+      </div>
+      </fieldset>
+      </div>
+       <input class="btn btn-outline-success btn-lg w-50 mt-3" style="margin-left: 250px;" type="submit" name="botcadast" value="Realizar Cadastro">
+    <div  id="layoutcadastro" style="margin-left: 0px; width: 100%;"><hr> </div>
+
+  </div>
+    
+
+
+
+
+
+
+
+
+
+   <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>

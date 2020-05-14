@@ -1,0 +1,332 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+body.index {
+	
+	background-image: url('imagens/fundo2.jpg');
+
+}
+
+
+ }
+#login {
+	border: 2px solid #02470c;
+	width: 500px;
+	height: 300px;
+	margin: 0 auto;
+	background: rgba(255, 255, 255, 0.6);
+	margin-top: 150px;
+	text-align: center;
+	border-radius: 20px;
+}
+
+#login img {
+	width: 120px;
+	height: 120px;
+	margin-top: -60px;
+	margin-bottom: 40px;
+	border-radius: 60px;
+}
+
+input.index {
+	text-indent: 60px;
+	height: 40px;
+	width: 70%;
+	font-size: 20px;
+	margin-bottom: 10px;
+	background: #fff;
+	padding-left: 40px;
+	background-repeat: no-repeat;
+	background-position: 10px;
+}
+
+input.email {
+	background-image: url('imagens/icone-usuario.png');
+}
+input.senha {
+	background-image: url('imagens/icone-cadeado.png');
+}
+input.botao {
+	color: #fff;
+	background-color: #013d47;
+	border: 2px solid #02470c;
+	text-indent: -30px;
+
+}
+
+#botao {
+	color: #fff;
+	background-color: #013d47;
+	border: 2px solid black;
+	text-indent: -30px;
+
+
+}
+
+#email {
+	width: 80%;
+	margin: 0 auto;
+}
+#tittleselect {
+	border: 1px solid; 
+	border-bottom: none;
+}
+
+
+
+
+/* segunda pagina */
+
+
+#contsecpag {
+	width: 50%; 
+	padding: 20px; 
+	float: left; 
+	margin-left: 30px;
+	font-size: 20px;
+}
+#contsecpag a {
+	text-decoration: none;
+}
+#contsecpag a:hover {
+	font-size: 26px;
+}
+#contsecpag2 {
+	float: right; 
+	width: 40%; 
+	padding: 20px; 
+	margin-right: 30px;
+}
+#conteudo {
+	
+	border: 1px solid red;
+}
+#email2 {
+	border: 1px solid red;
+	float: left;
+	width: 60%;
+	padding: 20px;
+}
+
+#requisicoes {
+	border: 1px solid red;
+	float: right;
+}
+
+/* pagina academia */
+#professores {
+	float: left;
+	width: 55%;
+	padding: 10px;
+	margin: 10px;
+	margin-left: 60px;
+}
+#equipamentos {
+	float: right;
+	width: 35%;
+	padding: 10px;
+	margin: 10px;
+	margin-right: 20px;
+}
+
+
+/* pagina luta */
+
+
+#professores44 {
+	float: left;
+	width: 44%;
+	padding: 10px;
+	margin: 10px;
+	margin-left: 60px;
+}
+#equipamentos44 {
+	float: right;
+	width: 44%;
+	padding: 10px;
+	margin: 10px;
+	margin-right: 20px;
+}
+/*--Cadastro cliente--*/
+#linkcads {
+	border: 1px solid; 
+	border-top: none;
+}
+#linkcads1 {
+	border: 1px solid; 
+	border-bottom: none;
+}
+
+/*--Pagina cadastro--*/
+#tittleselect2 {
+	margin-left: 180px;
+}
+#tittleselect3 {
+	margin-left: 180px;
+}
+#tittleselect4 {
+	margin-left: 260px;
+}
+
+#layoutcadastro1 {
+	margin-left: 0px; 
+	width: 100%;
+}
+.telacadastro #layoutcadastro {
+     width: 80%;
+     margin-left: 160px;
+     padding: 10px;
+     margin-bottom: 10px;
+}
+.cadformitem {
+	margin-left: 49px;
+}
+.cadformitem2 {
+	margin-left: 128px;
+}
+.cadformitem3 {
+	margin-left: 54px;
+}
+.cadformitem4 {
+	margin-left: 180px;
+}
+.cadformitem5 {
+	width: 260px;
+}
+.cadformitem6 {
+	margin-left: 20px;
+}
+.cadformitem7 {
+	width: 300px;
+}
+.cadformitem8 {
+	margin-left: 84px;
+}
+#flex {
+	display: inline-flex;
+}
+#botcad2 {
+	margin-left: 250px;
+}
+@media (max-width: 767px) {
+#contsecpag {
+	width: 100%; 
+	padding: 20px; 
+	margin: 0 auto;
+}
+#contsecpag2 {
+	 
+	width: 100%; 
+	padding: 20px; 
+	margin: 0 auto;
+}
+#pesq {
+	margin-left: -19px;
+}
+/*--academia*/
+#professores {
+	width: 100%;
+	margin: 0 auto;
+}
+#equipamentos {
+	width: 100%;
+	margin: 0 auto;
+	
+}
+/*--luta--*/
+#professores44 {
+	width: 100%;
+	margin: 0 auto;
+}
+#equipamentos44 {
+	width: 100%;
+	margin: 0 auto;
+	
+}
+.itemluta {
+	width: 100%;
+	
+}
+/*--Pagina cadastro--*/
+#tittleselect2, #tittleselect3, #tittleselect4, #layoutcadastro1 {
+	margin:0 auto;
+}
+
+.telacadastro #layoutcadastro {
+     width: 100%;
+     padding: 10px;
+     margin: 0 auto;
+     margin-bottom: 10px;
+     margin-top: -25px;
+}
+.cadformitem, .cadformitem2, .cadformitem3, .cadformitem4,.cadformitem6,.cadformitem8 {
+	margin-left: 0px;
+}
+.cadformitem5 {
+	width: 260px;
+}
+.cadformitem7 {
+	width: 300px;
+}
+#flex {
+	display: block;
+}
+#cadnum {
+	margin-left: -20px;
+}
+#dadospessoais {
+	margin-left: -10px;
+}
+#botcad2 {
+	margin-left: 250px;
+}
+#botcad2 {
+	margin-left: 115px;
+	margin-bottom: 8px;
+}
+}
+
+
+
+
+
+
+
+
+#loja {
+	width: 100%;
+	height: 1000px;
+}
+.produto {
+	display: inline;
+	border: 1px solid red;
+	width: 20px;
+	height: 100px;
+	padding: 30px;
+	margin: 30px;
+}
+
+
+
+
+
+#linkcads a:hover {
+	font-size: 28px;
+	border-bottom: none;
+}
+
+#tabela a {
+	text-decoration: none;
+}
+
+#tabela a:hover {
+	font-size: 18px;
+	border-bottom: none;
+}
+
+
+
+
+
+

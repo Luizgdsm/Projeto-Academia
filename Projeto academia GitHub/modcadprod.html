@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="formatação.css">
+
+    <title>Modificar cadastro produto</title>
+  </head>
+  <body class="telacadastro">
+
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+      <div class="navbar-brand m-2" style="text-indent: -100px;">Logo</div>    
+      <img src="imagens/perfil.png">
+
+      <button class="navbar navbar-toggler" data-toggle="collapse" data-target="#menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+      <div class="navbar-collapse collapse justify-content-center h5" id="menu">
+        <ul class="navbar-nav">
+        <li class="nav-item">
+          <a href="secondpage.html" class="nav-link">Home</a>
+        </li>
+      </ul>
+      <ul class="navbar-nav">
+        <li class="nav-item dropdown">
+          <a href="" class="nav-link dropdown-toggle" data-toggle="dropdown">Treinamentos</a>
+          <div class="dropdown-menu">
+            <a href="academia.html" class="dropdown-item">Academia</a>
+            <div class="dropdown-divider"></div>
+            <a href="luta.html" class="dropdown-item">Lutas</a>
+          </div>
+        </li>
+      </ul>
+
+      <ul class="navbar-nav">
+        <li class="nav-item dropdown">
+          <a href="" class="nav-link dropdown-toggle" data-toggle="dropdown">Produtos</a>
+          <div class="dropdown-menu">
+            <a href="loja.html" class="dropdown-item">Loja</a>
+            <div class="dropdown-divider"></div>
+            <a href="estoque.html" class="dropdown-item">Em estoque</a>
+            <div class="dropdown-divider"></div>
+            <a href="compras.html" class="dropdown-item">Compras</a>
+          </div>
+        </li>
+      </ul>
+
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a href="agenda.html" class="nav-link">Agenda</a>
+        </li>
+      </ul>
+
+      <ul class="navbar-nav">
+        <li class="nav-items dropdown">
+          <a href="" class="nav-link dropdown-toggle" data-toggle="dropdown">Cadastros</a>
+          <div class="dropdown-menu">
+            <a href="cadastro.html" class="dropdown-item"> Novo Cadastro</a>
+            <div class="dropdown-divider"></div>
+            <a href="modcad.html" class="dropdown-item">Modificar Cadastro</a>
+          </div>
+        </li>
+      </ul>
+      <form class="form-inline">
+        <input class="form-control ml-5" type="text" name="pesquisa" placeholder="Loja, clientes e mais">
+        <button class="btn btn-outline-success ml-2">Pesquisar</button>
+      </form>
+   </nav>
+
+
+
+
+
+
+    <ul id="linkcads" class="nav justify-content-center nav-tabs h4 mt-1 " style="border: 1px solid; border-top: none;">
+      <li class="nav-item">
+        <a href="modcad.html" class="nav-link text-success"><strong>Clientes</strong></a>
+      </li>
+      <li class="nav-item">
+        <a href="modforn.html" class="nav-link text-success"><strong>Forncedores</strong></a>
+      </li>
+     <li class="nav-item" style="border: 1px solid; border-bottom: none;">
+        <a href="modcadprod.html" class="nav-link active text-dark"><strong>Produto/Equipamento</strong></a>
+      </li>
+      <li class="nav-item">
+        <a href="modcadcolab.html" class="nav-link text-success"><strong>Colaboradores</strong></a>
+      </li>
+    </ul>
+
+     <ul id="linkcads" class="nav justify-content-center nav-tabs h4 mt-1 " style="border: 1px solid; border-top: none;">
+      
+     <li class="nav-item" style="border: 1px solid; border-bottom: none;">
+        <a href="modcadprod.html" class="nav-link active text-dark"><strong>Produto</strong></a>
+      </li>
+      <li class="nav-item">
+        <a href="modcadequip.html" class="nav-link text-success"><strong>Equipamento</strong></a>
+      </li>
+
+    </ul>
+    <br>
+
+     <div id="layoutcadastro">
+  <div class="table-responsive text-center">
+        <table id="tabela" class="table table-striped table-bordered">
+          <thead class="thead-dark">
+          <th>Nome</th>
+          <th>Contato</th>
+          <th>Tipo</th>
+          <th>Quantidade</th>
+          <th>Preço</th>
+          <th>Data de Compra</th>
+          <th>Código</th>
+        </thead>
+        <tbody>
+          <tr>
+          <td><a href="" class="text-success">Locação de Software Ltda</a></td>
+          <td>35 98574-8638</td>
+          <td>Unitario</td>
+          <td>54</td>
+          <td>8.432,00</td>
+          <td>22/08/1990</td>
+          <td>55767</td>
+          </tr>
+          <tr>
+          <td><a href="" class="text-success">Suplemetos Fort Ltda</a></td>
+          <td>35 99898-7634</td>
+          <td>Caixa</td>
+          <td>67</td>
+          <td>2.876,33</td>
+          <td>20/08/1990</td>
+          <td>56776</td>
+          </tr>
+          <tr>
+          <td><a href="" class="text-success">Suplementos Mora Ltda</a></td>
+          <td>35 99875-4565</td>
+          <td>Pallet</td>
+          <td>2</td>
+          <td>1.234,55</td>
+          <td>21/08/1990</td>
+          <td>2356</td>
+          </tr>
+          <tr>
+          <td><a href="" class="text-success">Equip. e Acss Liga Ltda</a></td>
+          <td>35 99564-6543</td>
+          <td>Unitario</td>
+          <td>45</td>
+          <td>2.344,33</td>
+          <td> 22/08/1990</td>
+          <td>76543</td>
+          </tr>
+          <tr>
+          <td><a href="" class="text-success">Suplementos Ágamo Ltda</a></td>
+          <td>35 98573-8765</td>
+          <td>Caixa</td>
+          <td>23</td>
+          <td>3.345,88</td>
+          <td>04/08/1990</td>
+          <td>146643</td>
+          </tr>
+          <tr>
+          <td><a href="" class="text-success">Academia Trivius Ltda</a></td>
+          <td>35 98764-3452</td>
+          <td>Pacote</td>
+          <td>54</td>
+          <td>3.456,77</td>
+          <td>19/08/1990</td>
+          <td>64313</td>
+          </tr>
+          <tr>
+          <td><a href="" class="text-success">Plasticos e afins Ltda</a></td>
+          <td>35 98574-9856</td>
+          <td>Unitario</td>
+          <td>34</td>
+          <td>1.754,99</td>
+          <td>12/08/1990</td>
+          <td>1346454</td>
+          </tr>
+          <tr>
+          <td><a href="" class="text-success">Lidera grupo e Acessorios Ltda</a></td>
+          <td>35 97546-8623</td>
+          <td>Pacote</td>
+          <td>34</td>
+          <td>3.134,55</td>
+          <td> 43/08/1990</td>
+          <td>64334</td>
+          </tr>
+          <tr>
+          <td><a href="" class="text-success">Higon e Cia Ltda</a></td>
+          <td>35 94533-6543</td>
+          <td>Caixa</td>
+          <td>45</td>
+          <td>5.234,00</td>
+          <td>02/08/1990</td>
+          <td>643134</td>
+          </tr>
+          <tr>
+          <td><a href="" class="text-success">Suplementos Alex P. Ltda</a></td>
+          <td>35 98764-3455</td>
+          <td>Pacote</td>
+          <td>12</td>
+          <td>1.566,00</td>
+          <td>45/34/1998</td>
+          <td>785676</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          
+        </tfoot>
+      </table>
+    </div>
+    </div>
+    
+
+
+
+
+
+
+
+
+   <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>
