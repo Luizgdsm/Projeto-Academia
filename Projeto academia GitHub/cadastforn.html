@@ -14,7 +14,7 @@
   </head>
   <body class="telacadastro">
 
-    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
       <div class="navbar-brand m-2" style="text-indent: -100px;">Logo</div>    
       <img src="imagens/perfil.png">
 
@@ -101,19 +101,19 @@
      <h2 id="tittleselect3">Cadastro de Fornecedores</h2><br>
       <legend><h6 id="tittleselect4">Dados Contratuais</h6></legend><br>
        </div>
-    <div  id="layoutcadastro" style="margin-left: 0px; width: 100%; margin-top: -20px"><hr> </div>
+    <div  id="layoutcadastro"><hr> </div>
     <div id="layoutcadastro">
      <fieldset id="dadospessoais">
  <div id="flex">
       <div>
       <label for="nome"><span class="input-group-text"> Empresa: </span></label>
-      <div class="input-group-prepend" style="width: 400px;">
+      <div class="input-group-prepend" id="cadforw" >
         <input class="form-control w-75" type="text" name="nome" placeholder="Nome da Empresa" required>
       </div>
       </div>
        <div>
       <label for="nome"><span class="input-group-text"> Razão Social: </span></label>
-      <div class="input-group-prepend" style="width: 400px;">
+      <div class="input-group-prepend" id="cadforw" >
         <input class="form-control w-75" type="text" name="nome" placeholder="Razão social em NF" required>
       </div>
       </div>
@@ -127,13 +127,13 @@
       </div>
       </div>
 
-      <div style="margin-left: 49px;">
+      <div class="cadformitem">
       <label for="nome"><span class="input-group-text mt-4"> E-mail: </span></label>
       <div class="input-group-prepend w-100">
         <input class="form-control" type="email" name="E-mail" placeholder="Empresa@email.com" required>
       </div>
       </div>
-      <div style="margin-left: 49px;">
+      <div class="cadformitem">
       <label for="nome"><span class="input-group-text mt-4"> CPF/CNPJ: </span></label>
       <div class="input-group-prepend w-100">
         <input class="form-control w-100" type="num" name="cpf" placeholder="000.000-00/000-00" min="8" max="8" required>
@@ -152,13 +152,13 @@
       </div>
       </div>
       
-      <div style="margin-left: 148px;" >
+      <div class="cadformitem2">
       <label for="nome"><span class="input-group-text mt-4" > Inicio do Cadastro: </span></label>
       <div class="input-group-prepend w-100">
         <input class="form-control" type="date" name="nascimento" required>
       </div>
       </div>
-      <div style="margin-left: 54px;">
+      <div class="cadformitem3">
       <label for="nome"><span class="input-group-text mt-4">Origem: </span></label>
       <div class="input-group-prepend w-100" required>
        <select class="form-control">
@@ -180,16 +180,16 @@
       <div class="mt-4">
       <label for="nome"><span class="input-group-text"> Observações: </span></label>
       <div class="input-group-prepend w-100">
-        <input class="form-control" style="width: 695px;"   type="text" name="nome" placeholder="Dados extras">
+        <input class="form-control" class="cadformitem9" type="text" name="nome" placeholder="Dados extras">
       </div>
       </fieldset>
       </div>
 
         <div  id="layoutcadastro" style="margin-left: 0px; width: 100%;"><hr></div>
     
-    <div style="margin-left: 180px;">
+    <div class="cadformitem4">
     
-     <fieldset id="dadospessoais">
+     <fieldset>
       <div>
       <label for="nome"><span class="input-group-text"> Endereço: </span></label>
       <div class="input-group-prepend w-100">
@@ -205,15 +205,15 @@
       </div>
 
       <div class="ml-4">
-      <label for="nome"><span class="input-group-text mt-4"> Numero: </span></label>
+      <label id="cadnum" for="nome"><span class="input-group-text mt-4"> Numero: </span></label>
       <div class="input-group-prepend w-100">
-        <input class="form-control" type="num" name="numcasa" placeholder="Ex 107" required>
+        <input id="cadnum" class="form-control" type="num" name="numcasa" placeholder="Ex 107" required>
       </div>
       </div>
       <div style="margin-left: 20px;">
-      <label for="nome"><span class="input-group-text mt-4"> Complemento: </span></label>
+      <label id="cadnum" for="nome"><span class="input-group-text mt-4"> Complemento: </span></label>
       <div class="input-group-prepend" style="width: 300px;">
-        <input class="form-control w-100" type="text" name="compltcliente" placeholder="Ex Casa ou Apartamento" required>
+        <input id="cadnum" class="form-control w-100" type="text" name="compltcliente" placeholder="Ex Casa ou Apartamento" required>
       </div>
       </div>
 </div>
@@ -225,13 +225,13 @@
         <input class="form-control" type="num" name="cepcliente" placeholder=" Ex 00000-000" required>
       </div>
       </div>
-       <div style="margin-left: 84px;">
-      <label for="nome"><span class="input-group-text mt-4"> Cidade: </span></label>
+       <div class="cadformitem8">
+      <label  for="nome"><span class="input-group-text mt-4"> Cidade: </span></label>
       <div class="input-group-prepend w-100">
-        <input class="form-control" type="text" name="cidadecliente" placeholder="Ex Cruzeiro" required>
+        <input  class="form-control" type="text" name="cidadecliente" placeholder="Ex Cruzeiro" required>
       </div>
       </div>
-      <div style="margin-left: 128px;">
+      <div class="cadformitem2">
       <label for="nome"><span class="input-group-text mt-4"> Estado: </span></label>
       <div class="input-group-prepend w-100 ">
        <select class="form-control" required>
@@ -256,7 +256,7 @@
       </div>
       </fieldset>
       </div>
-       <input class="btn btn-outline-success btn-lg w-50 mt-3" style="margin-left: 250px;" type="submit" name="botcadast" value="Realizar Cadastro">
+       <input id="botcad2" class="btn btn-outline-success btn-lg w-50 mt-3" type="submit" name="botcadast" value="Realizar Cadastro">
     <div  id="layoutcadastro" style="margin-left: 0px; width: 100%;"><hr> </div>
 
   </div>

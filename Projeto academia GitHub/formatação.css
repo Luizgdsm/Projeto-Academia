@@ -209,6 +209,39 @@ input.botao {
 #botcad2 {
 	margin-left: 250px;
 }
+
+/*--Cadastro fornecedor--*/
+#cadforw {
+	width: 400px;
+}
+.cadformitem2 {
+	margin-left: 148px;
+}
+.cadformitem9 {
+	width: 695px;
+}
+.cadformitem10 {
+	margin-left: 129px;
+}
+.cadformitem11 {
+	margin-left: 62px;
+}
+/*--Cadastro Colaborador--*/
+.colabaviso {
+	margin-left: 50px
+}
+#colabvend {
+	margin-left: 212px
+}
+#colabvend2 {
+	margin-left: 300px;
+}
+
+
+
+
+
+
 @media (max-width: 767px) {
 #contsecpag {
 	width: 100%; 
@@ -260,7 +293,7 @@ input.botao {
      margin-bottom: 10px;
      margin-top: -25px;
 }
-.cadformitem, .cadformitem2, .cadformitem3, .cadformitem4,.cadformitem6,.cadformitem8 {
+.cadformitem, .cadformitem2, .cadformitem3, .cadformitem4,.cadformitem6,.cadformitem8, .cadformitem10, .cadformitem11, #colabvend2, #colabvend,  .colabaviso {
 	margin-left: 0px;
 }
 .cadformitem5 {
@@ -285,6 +318,11 @@ input.botao {
 	margin-left: 115px;
 	margin-bottom: 8px;
 }
+/*--Cadastro Colaborador--*/
+#botcad3 {
+	margin-left: 20px;
+}
+
 }
 
 
