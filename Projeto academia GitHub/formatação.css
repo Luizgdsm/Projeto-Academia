@@ -183,7 +183,7 @@ input.botao {
 	margin-left: 49px;
 }
 .cadformitem2 {
-	margin-left: 128px;
+	margin-left: 120px;
 }
 .cadformitem3 {
 	margin-left: 54px;
@@ -209,7 +209,9 @@ input.botao {
 #botcad2 {
 	margin-left: 250px;
 }
-
+#nasccad {
+	margin-left: -20px;
+}
 /*--Cadastro fornecedor--*/
 #cadforw {
 	width: 400px;
@@ -293,7 +295,7 @@ input.botao {
      margin-bottom: 10px;
      margin-top: -25px;
 }
-.cadformitem, .cadformitem2, .cadformitem3, .cadformitem4,.cadformitem6,.cadformitem8, .cadformitem10, .cadformitem11, #colabvend2, #colabvend,  .colabaviso {
+.cadformitem, .cadformitem2, .cadformitem3, .cadformitem4,.cadformitem6,.cadformitem8, .cadformitem10, .cadformitem11, #nasccad, #colabvend2, #colabvend,  .colabaviso {
 	margin-left: 0px;
 }
 .cadformitem5 {
