@@ -68,13 +68,26 @@ input.botao {
 	width: 80%;
 	margin: 0 auto;
 }
+
+
+#alerta {
+	margin-left: 130px;
+}
+
+/*Barra de navegação*/
+#barnav {
+	text-indent: -100px;
+}
 #tittleselect {
 	border: 1px solid; 
 	border-bottom: none;
 }
-
-
-
+#pesqnav {
+	margin-left: 10px;
+}
+#pesqnav2 {
+	margin-left: 5px;
+}
 
 /* segunda pagina */
 
@@ -245,6 +258,18 @@ input.botao {
 
 
 @media (max-width: 767px) {
+#alerta {
+	margin-left: 70px;
+}
+
+/*Barra de navegação*/
+#tittleselect {
+	border: 1px solid; 
+}
+#pesqnav {
+	width: 40%;
+}
+
 #contsecpag {
 	width: 100%; 
 	padding: 20px; 
@@ -295,8 +320,9 @@ input.botao {
      margin-bottom: 10px;
      margin-top: -25px;
 }
-.cadformitem, .cadformitem2, .cadformitem3, .cadformitem4,.cadformitem6,.cadformitem8, .cadformitem10, .cadformitem11, #nasccad, #colabvend2, #colabvend,  .colabaviso {
+.cadformitem, .cadformitem2, .cadformitem3, .cadformitem4,.cadformitem6,.cadformitem8, .cadformitem10, .cadformitem11, #nasccad, #colabvend2, #colabvend, #pesqnav, #pesqnav2  .colabaviso {
 	margin-left: 0px;
+
 } 
 .cadformitem5 {
 	width: 260px;
