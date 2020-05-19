@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="formatação.css">
 
-    <title>Tela Loja</title>
+    <title>Tela treino</title>
   </head>
   <body class="telacadastro">
 
@@ -70,13 +70,13 @@
         </li>
       </ul>
       <form class="form-inline">
-        <input id="pesqnav" class="form-control border-success" type="text" name="pesquisa" placeholder="Loja, clientes e mais">
+        <input id="pesqnav" class="form-control" type="text" name="pesquisa" placeholder="Loja, clientes e mais">
         <button id="pesqnav2" class="btn btn-outline-success">Pesquisar</button>
       </form>
    </nav>
      <ul id="linkcads" class="nav justify-content-center nav-tabs h4 mt-1 ">
-      <li class="nav-item" id="tittleselect">
-        <a href="loja.html" class="nav-link active text-dark"><strong>Suplementos</strong></a>
+      <li class="nav-item">
+        <a href="loja.html" class="nav-link text-success"><strong>Suplementos</strong></a>
       </li>
       <li class="nav-item">
         <a href="accloja.html" class="nav-link text-success"><strong>Acessorios</strong></a>
@@ -84,10 +84,10 @@
      <li class="nav-item">
         <a href="equiploja.html" class="nav-link text-success"><strong>Equipamentos</strong></a>
       </li>
-      <li class="nav-item">
-        <a href="treinoloja.html" class="nav-link text-success"><strong>Treinos</strong></a>
+      <li class="nav-item" id="tittleselect">
+        <a href="treinoloja.html" class="nav-link active text-dark"><strong>Treinos</strong></a>
       </li>
-      <div id="flex" style="margin-right: : -20px;">
+     <div id="flex" style="margin-right: : -20px;">
       <input class="form-control ml-2 border-success" type="text" name="pesquisa" placeholder="Pesquisar">
       <span><button class="btn btn-outline-success ml-1">Vá</button></span> 
       </div>
@@ -97,53 +97,33 @@
 
    <div id="layoutcadastro" style="margin-top: -10px;">
 <div id="flex">
-      <div id="itemloja">
-          <ul class="media">
-            <img src="imagens/suplemento2.png" class="align-self-center" id="imgprod">
-            <li class="media-body" style="list-style: none;">
-                 <h5>Kit Suplts Black Skull</h5>
-                 <p style="margin-bottom: 0px;">Marca: Black Skull<br>Quantidade: 4x<br>Sabor: Variados</p>
-                 <strong> R$ 80,99</strong><br>
-                 <label>Sabor: </label>
-                 <select class="form-control mb-2"> 
-                    <option>Amendoim</option>
-                    <option>Morango</option>
-                    <option>Chocolate</option>
-                    <option>Baunilha</option>
-                 </select>
-              <div id="flexloja">
-               <label>Quantidade: </label>
-                 <select class="form-control w-25 ml-2"> 
-                    <option>1</option>
-                    <option>2</option>
-                    <option>3</option>
-                    <option>4</option>
-                    <option>5</option>
-                    <option>6</option>
-                    <option>7</option>
-                    <option>8</option>
-                    <option>9</option>
-                    <option>10</option>
-                 </select>
-               <a href=""><button class="btn btn-outline-success ml-2">Carrinho</button> </a>
-            </li>
-          </ul>
+      <div id="itemloja" style="border:none;">
+      <div class="card">
+       <img src="imagens/card44.jpg" class="card-img-top" style="border-radius: 20px;" > 
+       <div class="card-body text-center">
+        <h5><strong>Ganho de Massa</strong></h5>
+        <h6 class="card-subtittle text-left">massa muscular mais rápido.</h6>
+         <p class="card-text text-left">Para ganhar massa muscular, é importante fazer atividade física de forma regular e seguindo as orientações do treinador, além de seguir uma alimentação adequada ao objetivo, dando preferência aos alimentos ricos em proteína.</p>
+         
+       </div>
+      </div>
 
                </div>
 
          <div id="itemloja">
           <ul class="media">
-            <img src="imagens/suplemento2.png" class="align-self-center" id="imgprod">
+            <img src="imagens/equip2.png" class="align-self-center" id="imgprod">
             <li class="media-body" style="list-style: none;">
-                 <h5>Kit Suplts Black Skull</h5>
-                 <p style="margin-bottom: 0px;">Marca: Black Skull<br>Quantidade: 4x<br>Sabor: Variados</p>
-                 <strong> R$ 80,99</strong><br>
+                 <h5>Kettlebell Emborrachado Treinamento</h5>
+                 <p style="margin-bottom: 0px;">O Kettlebell é uma modalidade de exercícios físicos que vem ganhando cada vez mais espaço, trata-se de uma bola de ferro com uma alça que permite uma grande variedade de movimentos</p>
+                 <strong> R$ 39,90</strong><br>
                  <label>Sabor: </label>
                  <select class="form-control mb-2"> 
-                    <option>Amendoim</option>
-                    <option>Morango</option>
-                    <option>Chocolate</option>
-                    <option>Baunilha</option>
+                    <option>TM 1 - 10KG </option>
+                    <option>TM 2 - 15KG </option>
+                    <option>TM 3 - 20KG </option>
+                    <option>TM 4 - 25KG </option>
+                    <option>TM 5 - 30KG </option>
                  </select>
               <div id="flexloja">
                <label>Quantidade: </label>
@@ -172,17 +152,18 @@
 <div id="flex">
       <div id="itemloja">
           <ul class="media">
-            <img src="imagens/suplemento2.png" class="align-self-center" id="imgprod">
+            <img src="imagens/equip4.jpg" class="align-self-center" id="imgprod">
             <li class="media-body" style="list-style: none;">
-                 <h5>Kit Suplts Black Skull</h5>
-                  <p style="margin-bottom: 0px;">Marca: Black Skull<br>Quantidade: 4x<br>Sabor: Variados</p>
-                 <strong> R$ 80,99</strong><br>
-                 <label>Sabor: </label>
+                 <h5>Maquina Random</h5>
+                  <p style="margin-bottom: 0px;">Os equipamentos para academia comercializados são do mais alto padrão, com excelentes preços e agilidade na entrega garantindo ao cliente maior confiança em receber o produto solicitado.</p>
+                 <strong> R$ 5.999,88</strong><br>
+                 <label>Tamanhos: </label>
                  <select class="form-control mb-2"> 
-                    <option>Amendoim</option>
-                    <option>Morango</option>
-                    <option>Chocolate</option>
-                    <option>Baunilha</option>
+                    <option>TM 1 - 50KG </option>
+                    <option>TM 2 - 60KG </option>
+                    <option>TM 3 - 80KG </option>
+                    <option>TM 4 - 90KG </option>
+                    <option>TM 5 - 120KG </option>
                  </select>
               <div id="flexloja">
                <label>Quantidade: </label>
@@ -206,17 +187,91 @@
 
          <div id="itemloja">
           <ul class="media">
-            <img src="imagens/suplemento2.png" class="align-self-center" id="imgprod">
+            <img src="imagens/equip5.jpg" class="align-self-center" id="imgprod">
             <li class="media-body" style="list-style: none;">
-                 <h5>Kit Suplts Black Skull</h5>
-                 <p style="margin-bottom: 0px;">Marca: Black Skull<br>Quantidade: 4x<br>Sabor: Variados</p>
-                 <strong> R$ 80,99</strong><br>
+                 <h5>Equipamentos Musculação</h5>
+                 <p style="margin-bottom: 0px;">O Step Fitness EVA é ideal para exercícios de agachamento e aeróbicos com foco em fortalecimento da musculatura, perda de peso e melhoria da coordenação motora.</p>
+                 <strong> R$ 41.990,99</strong><br>
+                 <label>Tamanhos: </label>
+                <select class="form-control mb-2"> 
+                    <option>TM 1 - 50KG </option>
+                    <option>TM 2 - 60KG </option>
+                    <option>TM 3 - 80KG </option>
+                    <option>TM 4 - 90KG </option>
+                    <option>TM 5 - 120KG </option>
+                 </select>
+              <div id="flexloja">
+               <label>Quantidade: </label>
+                 <select class="form-control w-25 ml-2"> 
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                    <option>8</option>
+                    <option>9</option>
+                    <option>10</option>
+                 </select>
+               <a href=""><button class="btn btn-outline-success ml-2">Carrinho</button> </a>
+            </li>
+          </ul>
+
+               </div>
+
+         
+       
+</div>
+
+<div id="flex">
+      <div id="itemloja">
+           <ul class="media">
+            <img src="imagens/equip1.jpg" class="align-self-center" id="imgprod">
+            <li class="media-body" style="list-style: none;">
+                 <h5>Estação de musculação</h5>
+                 <p style="margin-bottom: 0px;">Estação De Musculação Com 80kg Aparelho Ginástica AcademiaEstação De Musculação Voador Com 80kg Em Anilhas De Peso.</p>
+                 <strong> R$ 2.152,86</strong><br>
+                 <label>Cores e Tamanhos: </label>
+                 <select class="form-control mb-2"> 
+                    <option>Ferro - 80KG</option>
+                    <option>Ferro - 100KG</option>
+                    <option>Ferro - 120KG</option>
+                 </select>
+              <div id="flexloja">
+               <label>Quantidade: </label>
+                 <select class="form-control w-25 ml-2"> 
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                    <option>8</option>
+                    <option>9</option>
+                    <option>10</option>
+                 </select>
+               <a href=""><button class="btn btn-outline-success ml-2">Carrinho</button> </a>
+            </li>
+          </ul>
+
+               </div>
+
+         <div id="itemloja">
+          <ul class="media">
+            <img src="imagens/equip2.png" class="align-self-center" id="imgprod">
+            <li class="media-body" style="list-style: none;">
+                 <h5>Kettlebell Emborrachado Treinamento</h5>
+                 <p style="margin-bottom: 0px;">O Kettlebell é uma modalidade de exercícios físicos que vem ganhando cada vez mais espaço, trata-se de uma bola de ferro com uma alça que permite uma grande variedade de movimentos</p>
+                 <strong> R$ 39,90</strong><br>
                  <label>Sabor: </label>
                  <select class="form-control mb-2"> 
-                    <option>Amendoim</option>
-                    <option>Morango</option>
-                    <option>Chocolate</option>
-                    <option>Baunilha</option>
+                    <option>TM 1 - 10KG </option>
+                    <option>TM 2 - 15KG </option>
+                    <option>TM 3 - 20KG </option>
+                    <option>TM 4 - 25KG </option>
+                    <option>TM 5 - 30KG </option>
                  </select>
               <div id="flexloja">
                <label>Quantidade: </label>
@@ -245,17 +300,18 @@
 <div id="flex">
       <div id="itemloja">
           <ul class="media">
-            <img src="imagens/suplemento2.png" class="align-self-center" id="imgprod">
+            <img src="imagens/equip4.jpg" class="align-self-center" id="imgprod">
             <li class="media-body" style="list-style: none;">
-                 <h5>Kit Suplts Black Skull</h5>
-                  <p style="margin-bottom: 0px;">Marca: Black Skull<br>Quantidade: 4x<br>Sabor: Variados</p>
-                 <strong> R$ 80,99</strong><br>
-                 <label>Sabor: </label>
+                 <h5>Maquina Random</h5>
+                  <p style="margin-bottom: 0px;">Os equipamentos para academia comercializados são do mais alto padrão, com excelentes preços e agilidade na entrega garantindo ao cliente maior confiança em receber o produto solicitado.</p>
+                 <strong> R$ 5.999,88</strong><br>
+                 <label>Tamanhos: </label>
                  <select class="form-control mb-2"> 
-                    <option>Amendoim</option>
-                    <option>Morango</option>
-                    <option>Chocolate</option>
-                    <option>Baunilha</option>
+                    <option>TM 1 - 50KG </option>
+                    <option>TM 2 - 60KG </option>
+                    <option>TM 3 - 80KG </option>
+                    <option>TM 4 - 90KG </option>
+                    <option>TM 5 - 120KG </option>
                  </select>
               <div id="flexloja">
                <label>Quantidade: </label>
@@ -279,17 +335,18 @@
 
          <div id="itemloja">
           <ul class="media">
-            <img src="imagens/suplemento2.png" class="align-self-center" id="imgprod">
+            <img src="imagens/equip5.jpg" class="align-self-center" id="imgprod">
             <li class="media-body" style="list-style: none;">
-                 <h5>Kit Suplts Black Skull</h5>
-                <p style="margin-bottom: 0px;">Marca: Black Skull<br>Quantidade: 4x<br>Sabor: Variados</p>
-                 <strong> R$ 80,99</strong><br>
-                 <label>Sabor: </label>
-                 <select class="form-control mb-2"> 
-                    <option>Amendoim</option>
-                    <option>Morango</option>
-                    <option>Chocolate</option>
-                    <option>Baunilha</option>
+                 <h5>Equipamentos Musculação</h5>
+                 <p style="margin-bottom: 0px;">O Step Fitness EVA é ideal para exercícios de agachamento e aeróbicos com foco em fortalecimento da musculatura, perda de peso e melhoria da coordenação motora.</p>
+                 <strong> R$ 41.990,99</strong><br>
+                 <label>Tamanhos: </label>
+                <select class="form-control mb-2"> 
+                    <option>TM 1 - 50KG </option>
+                    <option>TM 2 - 60KG </option>
+                    <option>TM 3 - 80KG </option>
+                    <option>TM 4 - 90KG </option>
+                    <option>TM 5 - 120KG </option>
                  </select>
               <div id="flexloja">
                <label>Quantidade: </label>
@@ -314,80 +371,6 @@
          
        
 </div>
-
-<div id="flex">
-      <div id="itemloja">
-          <ul class="media">
-            <img src="imagens/suplemento2.png" class="align-self-center" id="imgprod">
-            <li class="media-body" style="list-style: none;">
-                 <h5>Kit Suplts Black Skull</h5>
-                  <p style="margin-bottom: 0px;">Marca: Black Skull<br>Quantidade: 4x<br>Sabor: Variados</p>
-                 <strong> R$ 80,99</strong><br>
-                 <label>Sabor: </label>
-                 <select class="form-control mb-2"> 
-                    <option>Amendoim</option>
-                    <option>Morango</option>
-                    <option>Chocolate</option>
-                    <option>Baunilha</option>
-                 </select>
-              <div id="flexloja">
-               <label>Quantidade: </label>
-                 <select class="form-control w-25 ml-2"> 
-                    <option>1</option>
-                    <option>2</option>
-                    <option>3</option>
-                    <option>4</option>
-                    <option>5</option>
-                    <option>6</option>
-                    <option>7</option>
-                    <option>8</option>
-                    <option>9</option>
-                    <option>10</option>
-                 </select>
-               <a href=""><button class="btn btn-outline-success ml-2">Carrinho</button> </a>
-            </li>
-          </ul>
-
-               </div>
-
-         <div id="itemloja">
-          <ul class="media">
-            <img src="imagens/suplemento2.png" class="align-self-center" id="imgprod">
-            <li class="media-body" style="list-style: none;">
-                 <h5>Kit Suplts Black Skull</h5>
-                  <p style="margin-bottom: 0px;">Marca: Black Skull<br>Quantidade: 4x<br>Sabor: Variados</p>
-                 <strong> R$ 80,99</strong><br>
-                 <label>Sabor: </label>
-                 <select class="form-control mb-2"> 
-                    <option>Amendoim</option>
-                    <option>Morango</option>
-                    <option>Chocolate</option>
-                    <option>Baunilha</option>
-                 </select>
-              <div id="flexloja">
-               <label>Quantidade: </label>
-                 <select class="form-control w-25 ml-2"> 
-                    <option>1</option>
-                    <option>2</option>
-                    <option>3</option>
-                    <option>4</option>
-                    <option>5</option>
-                    <option>6</option>
-                    <option>7</option>
-                    <option>8</option>
-                    <option>9</option>
-                    <option>10</option>
-                 </select>
-               <a href=""><button class="btn btn-outline-success ml-2">Carrinho</button> </a>
-            </li>
-          </ul>
-
-               </div>
-
-         
-       
-</div>
-
 
     </div>
 
