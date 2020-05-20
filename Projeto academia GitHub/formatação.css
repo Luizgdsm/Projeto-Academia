@@ -4,14 +4,15 @@
 }
 body.index {
 	
-	background-image: url('imagens/fundo2.jpg');
+	background-image: url('imagens/fundo4.png');
 
 }
 
-
+/*-- Pagina Login--*/
  }
-#login {
+/* #login {
 	border: 2px solid #02470c;
+	border: 2px solid red;
 	width: 500px;
 	height: 300px;
 	margin: 0 auto;
@@ -19,60 +20,17 @@ body.index {
 	margin-top: 150px;
 	text-align: center;
 	border-radius: 20px;
+} */
+
+#divlog4 {
+	width: 400px; 
+	height: 300px; 
+	border: 1px solid red; 
+	margin: 0 auto; 
+	margin-top: 15%; 
+	border-radius: 20px;
 }
 
-#login img {
-	width: 120px;
-	height: 120px;
-	margin-top: -60px;
-	margin-bottom: 40px;
-	border-radius: 60px;
-}
-
-input.index {
-	text-indent: 60px;
-	height: 40px;
-	width: 70%;
-	font-size: 20px;
-	margin-bottom: 10px;
-	background: #fff;
-	padding-left: 40px;
-	background-repeat: no-repeat;
-	background-position: 10px;
-}
-
-input.email {
-	background-image: url('imagens/icone-usuario.png');
-}
-input.senha {
-	background-image: url('imagens/icone-cadeado.png');
-}
-input.botao {
-	color: #fff;
-	background-color: #013d47;
-	border: 2px solid #02470c;
-	text-indent: -30px;
-
-}
-
-#botao {
-	color: #fff;
-	background-color: #013d47;
-	border: 2px solid black;
-	text-indent: -30px;
-
-
-}
-
-#email {
-	width: 80%;
-	margin: 0 auto;
-}
-
-
-#alerta {
-	margin-left: 130px;
-}
 
 /*Barra de navegação*/
 #barnav {
