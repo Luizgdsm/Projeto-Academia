@@ -283,10 +283,21 @@ input.botao {
 
 #flextreino {
 	display: inline-flex;
-	margin-left: 30px;
-	
 }
+#itemloja2 {
+	margin-bottom: 10px;
+	width: 470px;
+	border: 1px solid black;  
+	padding: 10px;
+	margin-left: 25px;
+	border-radius: 25px;
+}
+.mrlojaluta {
+	margin-right: 20px;
+}
+#botloja {
 
+}
 
 
 
@@ -354,7 +365,7 @@ input.botao {
      margin-bottom: 10px;
      margin-top: -25px;
 }
-.cadformitem, .cadformitem2, .cadformitem3, .cadformitem4,.cadformitem6,.cadformitem8, .cadformitem10, .cadformitem11, #nasccad, #colabvend2, #colabvend, #pesqnav, #pesqnav2  .colabaviso {
+.cadformitem, .cadformitem2, .cadformitem3, .cadformitem4,.cadformitem6,.cadformitem8, .cadformitem10, .cadformitem11, #nasccad, #colabvend2, #colabvend, #pesqnav, #pesqnav2  .colabaviso, #itemloja2, #itemloja {
 	margin-left: 0px;
 
 } 
@@ -364,7 +375,7 @@ input.botao {
 .cadformitem7 {
 	width: 300px;
 }
-#flex {
+#flex, #flextreino {
 	display: block;
 }
 #cadnum {
