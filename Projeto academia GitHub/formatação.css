@@ -47,7 +47,7 @@ body.index {
 	margin-left: 5px;
 }
 
-/* segunda pagina */
+/* Second Page */
 
 
 #contsecpag {
@@ -157,11 +157,17 @@ body.index {
 	border-radius: 25px;
 }
 /*--Pagina cadastro--*/
+#alerta {
+	margin: 0 auto;
+}
 #tittleselect2 {
 	margin-left: 180px;
 }
 #tittleselect3 {
-	margin-left: 180px;
+	margin-left: 150px;
+}
+#tittleselect33 {
+	margin-left: 90px;
 }
 #tittleselect4 {
 	margin-left: 260px;
@@ -238,7 +244,7 @@ body.index {
 }
 
 
-
+/*-- Tela treino--*/
 #flextreino {
 	display: inline-flex;
 }
