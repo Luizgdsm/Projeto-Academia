@@ -233,7 +233,7 @@ body.index {
 	margin-left: 62px;
 }
 /*--Cadastro Colaborador--*/
-.colabaviso {
+.colabaviso , #confirsenha{
 	margin-left: 50px
 }
 #colabvend {
@@ -242,6 +242,7 @@ body.index {
 #colabvend2 {
 	margin-left: 300px;
 }
+
 
 
 /*-- Tela treino--*/
@@ -329,7 +330,7 @@ body.index {
      margin-bottom: 10px;
      margin-top: -25px;
 }
-.cadformitem, .cadformitem2, .cadformitem3, .cadformitem4,.cadformitem6,.cadformitem8, .cadformitem10, .cadformitem11, #nasccad, #colabvend2, #colabvend, #pesqnav, #pesqnav2  .colabaviso, #itemloja2, #itemloja {
+.cadformitem, .cadformitem2, .cadformitem3, .cadformitem4,.cadformitem6,.cadformitem8, .cadformitem10, .cadformitem11, #nasccad, #colabvend2, #colabvend, #pesqnav, #pesqnav2  .colabaviso, #itemloja2, #itemloja, #confirsenha {
 	margin-left: 0px;
 
 } 
