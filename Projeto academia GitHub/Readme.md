@@ -6,7 +6,7 @@
  Projeto realizado na Fatec Profº Waldomiro May - Cruzeiro/SP para aplicar os conceitos relacionados ao desenvolvimento web.
  O projeto visa desenvolver um software de gestão de uma academia fictícia. Os clientes do projeto, também fictícios, requisitaram a implementação de um sistema de descontos a cada nova atividade dentro da academia e a cada indicação de um novo cliente da academia.
 
-O Projeto Utiliza das seguintes tecnologias:
+O Projeto Utiliza das seguintes tecnologias: 
 
 - [x] Responsividade
 - [x] CSS3
