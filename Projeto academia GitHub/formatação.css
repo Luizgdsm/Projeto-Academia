@@ -128,6 +128,11 @@ body.index {
 	border: 1px solid; 
 	border-bottom: none;
 }
+#linkcads2 {
+	border: 1px solid; 
+	border-top: none;
+
+}
 
 /*--Pagina Loja--*/
 
@@ -276,6 +281,10 @@ body.index {
 #tittleselect {
 	border: 1px solid; 
 }
+#tittleselect44 {
+	border: 1px solid;
+	border-bottom: none;
+}
 #pesqnav {
 	width: 40%;
 }
@@ -389,9 +398,12 @@ body.index {
 
 
 
-
 #linkcads a:hover {
 	font-size: 28px;
+	border-bottom: none;
+}
+#linkcads2 a:hover {
+	font-size: 20px;
 	border-bottom: none;
 }
 
